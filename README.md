@@ -3,7 +3,7 @@ Using Streamlit to build a simple UI on top of the Solana API.
 
 ## Install 
 ```
-git clone  https://github.com/devincapriola/SOLSEA-NFT-EXPLORE.git
+git clone https://github.com/devincapriola/SOLSEA-NFT-EXPLORE.git
 ```
 
 ## Run
@@ -14,6 +14,9 @@ docker build -t app .
 ```
 docker run app
 ```
+
+### Example
+<img alt="example" src="./example.png" />
 
 ## 🤝 Contributing
 
