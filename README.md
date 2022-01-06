@@ -1,6 +1,7 @@
 ## SOLSEA NFT Explorer
 Using Streamlit to build a simple UI on top of the Solana API.
 
+https://share.streamlit.io/devincapriola/solsea-nft-explore/main/app.py
 ## Install 
 ```
 git clone https://github.com/devincapriola/SOLSEA-NFT-EXPLORE.git
