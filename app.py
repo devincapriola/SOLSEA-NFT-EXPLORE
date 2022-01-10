@@ -31,7 +31,7 @@ for asset in response["data"]:
             f"{asset['nft_collection']['Title']}"
         )
 
-    if asset["Preview_URL"].endswith(".mp4") or asset["Preview_URL"].endswith(".mov") or asset["Preview_URL"].endswith(".m4v") or asset["Preview_URL"].endswith(".avi") or asset["Preview_URL"].endswith(".mpg") or asset["Preview_URL"].endswith(".mpeg"):
+    if asset["Preview_URL"].endswith(".mp4") or asset["Preview_URL"].endswith(".mov") or asset["Preview_URL"].endswith(".gif") or asset["Preview_URL"].endswith(".png") or asset["Preview_URL"].endswith(".jpg"):
         st.video(asset["Preview_URL"])
     else:
         st.image(asset["Preview_URL"])
