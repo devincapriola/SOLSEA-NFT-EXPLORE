@@ -2,26 +2,27 @@
 Using Streamlit to build a simple UI on top of the Solana API.
 
 https://share.streamlit.io/devincapriola/solsea-nft-explore/main/app.py
-## Install 
-```
-git clone https://github.com/devincapriola/SOLSEA-NFT-EXPLORE.git
+
+### Install 
+```shell
+$ git clone https://github.com/devincapriola/SOLSEA-NFT-EXPLORE.git
 ```
 
-## Run
+### Run
+```shell
+$ docker build -t app:latest .
 ```
-docker build -t app . 
+```shell
+$ docker run -p 8501:8501 app:latest
 ```
-
-```
-docker run app
-```
+Going to http://localhost:8501, you should see the application.
 
 ### Example
 <img alt="example" src="./example.png" />
 
-## 🤝 Contributing
+### :handshake: Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/devincapriola/SOLSEA-NFT-EXPLORE/issues).
 
-## Show your support
-Give a ⭐️ if this project helped you!
+### Show your support
+Give a :star: if this project helped you!
