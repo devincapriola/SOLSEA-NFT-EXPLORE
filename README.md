@@ -15,7 +15,7 @@ $ docker build -t app:latest .
 ```shell
 $ docker run -p 8501:8501 app:latest
 ```
-Going to http://localhost:8501, you should see the application.
+Go to http://localhost:8501, you should see the application.
 
 ### Example
 <img alt="example" src="./example.png" />
