@@ -1,13 +1,11 @@
-FROM python:3.7-buster
+FROM python:latest
 
-RUN \
-    apt-get update && \
-    apt-get install -y gcc &&\
-    apt-get install -y g++
+EXPOSE 8501
 
-COPY ./requirements.txt ./requirements.txt
+WORKDIR /app
 
-RUN pip install -r requirements.txt
+COPY requirements.txt ./requirements.txt
+RUN pip install -U pip && pip install -r requirements.txt
 
 COPY . .
 
