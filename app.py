@@ -1,8 +1,7 @@
 import streamlit as st
 import requests
-import json
 
-st.header("SOLSEA Explorer")
+st.header("Solsea NFT Explorer")
 
 title = st.sidebar.text_input("NFT Title")
 description = st.sidebar.text_input("NFT Description")
@@ -37,5 +36,3 @@ for asset in response["data"]:
         st.image(asset["Preview_URL"])
 
     st.write("---")
-
-# st.write(r.json())
