@@ -24,7 +24,7 @@ We supplied -p argument to specify what port on the host machine to map the port
 <br />
 
 ### :handshake: Contributing
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/devincapriola/SOLSEA-NFT-EXPLORE).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/devincapriola/SOLSEA-NFT-EXPLORE/issues).
 
 ### Show your support
 Give a :star: if this project helped you!
