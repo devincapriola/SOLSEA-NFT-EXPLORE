@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 
+st.set_page_config(layout="wide")
 st.header("Solsea NFT Explorer")
 
 title = st.sidebar.text_input("NFT Title")
