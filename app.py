@@ -26,11 +26,9 @@ for asset in response["data"]:
         st.write(asset["Title"])
         st.write(asset["Description"])
     else:
-        st.write(
-            f"{asset['nft_collection']['Title']}"
-        )
+        st.write(f"{asset['nft_collection']['Title']}")
 
-    if asset["Preview_URL"].endswith(".mp4") or asset["Preview_URL"].endswith(".mov") or asset["Preview_URL"].endswith(".gif") or asset["Preview_URL"].endswith(".png") or asset["Preview_URL"].endswith(".jpg"):
+    if asset["Preview_URL"].endswith(".mp4") or asset["Preview_URL"].endswith(".mov") or asset["Preview_URL"].endswith(".gif") or asset["Preview_URL"].endswith(".png") or asset["Preview_URL"].endswith(".jpg") or asset["Preview_URL"].endswith(".svg"):
         st.video(asset["Preview_URL"])
     else:
         st.image(asset["Preview_URL"])
