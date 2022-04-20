@@ -4,6 +4,7 @@ import requests
 st.set_page_config(layout="wide")
 st.header("Solsea NFT Explorer")
 
+st.sidebar.title("Solsea NFT Explorer")
 title = st.sidebar.text_input("NFT Title")
 description = st.sidebar.text_input("NFT Description")
 collection = st.sidebar.text_input("NFT Collection ID")
