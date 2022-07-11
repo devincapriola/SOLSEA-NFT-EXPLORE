@@ -20,8 +20,7 @@ if title:
 if description:
     params["Description"] = description
 
-r = requests.get("https://api.all.art/v1/solana/", params=params)
-response = r.json()
+response = requests.get("https://api.all.art/v1/solana/", params=params).json()
 
 for asset in response["data"]:
     if asset["Title"]:
